@@ -519,6 +519,7 @@ section .main .button:hover i {
 .services h1 span {
     margin-left: 15px;
     background: linear-gradient(to left, #c72092, #6c14d0);
+    background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
